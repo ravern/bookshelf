@@ -1,0 +1,16 @@
+@import url('https://rsms.me/inter/inter.css');
+
+html {
+  font-family: 'Inter', -apple-system, system-ui, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', -apple-system, system-ui, BlinkMacSystemFont,
+      "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
