@@ -16,7 +16,7 @@ function useLibraryRequest(url) {
       loading: true,
     }));
 
-    fetch(`https://cors-anywhere.herokuapp.com/${url}`)
+    fetch(url)
       .then(res => res.json())
       .then(library => {
         setResult(result => ({
